@@ -6,7 +6,7 @@
 # catalog-version 1.0
 Name:		texlive-raleway
 Version:	1.0
-Release:	4
+Release:	5
 Summary:	Use Raleway with TeX(-alike) systems
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/fonts/raleway
