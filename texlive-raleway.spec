@@ -1,6 +1,6 @@
 Name:		texlive-raleway
 Version:	1.4
-Release:	1
+Release:	2
 Summary:	Use Raleway with TeX(-alike) systems
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/fonts/raleway
