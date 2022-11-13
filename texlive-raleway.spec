@@ -1,12 +1,12 @@
 Name:		texlive-raleway
-Version:	1.4
-Release:	2
+Version:	42629
+Release:	1
 Summary:	Use Raleway with TeX(-alike) systems
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/fonts/raleway
 License:	OFL
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/raleway.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/raleway.doc.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/raleway.r%{version}.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/raleway.doc.r%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
@@ -18,12 +18,12 @@ For XeLaTeX and LuaLaTeX users the original OpenType fonts are
 used. The entire font family is included.
 
 %post
-    %{_sbindir}/texlive.post
+%{_sbindir}/texlive.post
 
 %postun
-    if [ $1 -eq 0 ]; then
+if [ $1 -eq 0 ]; then
 	%{_sbindir}/texlive.post
-    fi
+fi
 
 #-----------------------------------------------------------------------
 %files
@@ -38,7 +38,7 @@ used. The entire font family is included.
 
 #-----------------------------------------------------------------------
 %prep
-%setup -c -a0 -a1
+%autosetup -p1 -c -a1
 
 %build
 
