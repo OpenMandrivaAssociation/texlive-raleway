@@ -3,7 +3,7 @@ Version:	42629
 Release:	2
 Summary:	Use Raleway with TeX(-alike) systems
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/fonts/raleway
+URL:		https://www.ctan.org/tex-archive/fonts/raleway
 License:	OFL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/raleway.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/raleway.doc.r%{version}.tar.xz
